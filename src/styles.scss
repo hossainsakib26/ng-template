@@ -3,6 +3,63 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  @font-face {
+    font-family: 'Gotham Thin';
+    font-weight: 100;
+    src: url("/assets/fonts/gotham/Gotham-Thin.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham XLight';
+    font-weight: 200;
+    src: url("/assets/fonts/gotham/Gotham-XLight.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham Light';
+    font-weight: 300;
+    src: url("/assets/fonts/gotham/Gotham-Light.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham';
+    font-weight: 400;
+    src: url("/assets/fonts/gotham/Gotham-Book.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham Medium';
+    font-weight: 500;
+    src: url("/assets/fonts/gotham/Gotham-Medium.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham Bold';
+    font-weight: 600;
+    src: url("/assets/fonts/gotham/Gotham-Bold.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham Black';
+    font-weight: 700;
+    src: url("/assets/fonts/gotham/Gotham-Black.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Gotham Ultra';
+    font-weight: 800;
+    src: url("/assets/fonts/gotham/Gotham-Ultra.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Dank Mono';
+    font-weight: 400;
+    src: url("/assets/fonts/dank-mono/Dank-Mono-Regular.otf") format('opentype');
+  }
+}
+
+
 * {
   scrollbar-width: none;
   -ms-overflow-style: none;
